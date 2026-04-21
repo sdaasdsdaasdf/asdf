@@ -2,7 +2,7 @@ name: CloudMiner Auto Claim
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # Runs every day at 6:00 AM UTC — change to your preferred time
+    - cron: '0 1 * * *'   # Runs every day at 6:00 AM UTC — change to your preferred time
   workflow_dispatch:        # Also allows manual trigger from GitHub Actions tab
 
 jobs:
